@@ -1,4 +1,4 @@
-body {
+* {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -46,7 +46,7 @@ h1, h2, h3, h4 {
   background-color: #18a558;
   border-radius: 10px;
 }
-/*  */
+
 .teks {
   flex: 1; 
   text-align: left; 
@@ -63,7 +63,6 @@ h1, h2, h3, h4 {
   text-align: center;
   padding: 60px 20px;
   margin: 0 auto; 
-  /* background-color: #E6F7E6; */
   background-color: #ffffff;
   display: flex; 
   justify-content: center; 
@@ -112,7 +111,6 @@ h1, h2, h3, h4 {
   padding: 15px 25px; 
 }
 
-/* Program Keahlian */
 .program-keahlian {
   padding: 40px 20px;
   text-align: center;
@@ -157,7 +155,6 @@ h1, h2, h3, h4 {
   padding: 25px; 
 }
 
-/* untuk deksripsi atas dan deksripsi bawah  */
 .deksripsi-atas,
 .deksripsi-bawah {
   width: 90%;
@@ -169,7 +166,7 @@ h1, h2, h3, h4 {
   flex-direction: column; 
 }
 
-/*  untuk deksripsi atas */
+
 .deksripsi-jurusan-atas {
   display: flex;
   align-items: flex-start;
@@ -213,7 +210,6 @@ h1, h2, h3, h4 {
   margin-bottom: 5px;
 }
 
-/*  untuk deksripsi  bawah */
 .deksripsi-jurusan {
   display: flex;
   align-items: flex-start;
@@ -261,13 +257,10 @@ h1, h2, h3, h4 {
   margin-bottom: 5px;
 }
 
-
-/* Mitra Akademik */
 .mitra-akademik {
   text-align: left; 
   margin-left: 20px; 
 }
-
 
 .mitra-akademik h3 {
   margin-bottom: 20px;
@@ -276,7 +269,6 @@ h1, h2, h3, h4 {
   margin-left: 300px; 
   font-size: 25px;
 }
-
 
 .logo-mitra {
   display: flex; 
@@ -293,6 +285,7 @@ h1, h2, h3, h4 {
   margin-inline: 20px;
   align-items: baseline;
 }
+
 .logo-mitra2{
   display: flex; 
   justify-content: center; 
@@ -306,13 +299,13 @@ h1, h2, h3, h4 {
   height: auto; 
   margin-inline: 20px;
   align-items: baseline;
-  
 }
-/* fasilitas */
+
 .program-keahlian2 {
   padding: 40px 20px;
   text-align: center;
 }
+
 .program-keahlian2 h3{
   margin-bottom: 20px;
   color: #18a558;
@@ -320,6 +313,7 @@ h1, h2, h3, h4 {
   margin-left: 300px; 
   font-size: 25px;
 }
+
 .kotak-program2 {
   display: flex;
   justify-content: center;
@@ -341,11 +335,13 @@ h1, h2, h3, h4 {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); 
   transition: padding .5s ease; 
 }
+
 .program2 img {
   width: 25%; 
   margin-right: 10px;
   text-align: left;
 }
+
 .program2 h2 {
   font-size: 25px;
   color: #18a558; 
@@ -357,7 +353,7 @@ h1, h2, h3, h4 {
   color: #ffffff;
   padding: 25px; 
 }
-/* Biaya Pendidikan */
+
 .biaya-pendidikan {
   padding: 20px;
   max-width: 1200px;
@@ -368,7 +364,7 @@ h1, h2, h3, h4 {
   text-align: center;
 }
 
-/* Table nyaa */
+
 .table-container {
   overflow-x: auto;
   margin: 20px 0;
@@ -397,7 +393,7 @@ tbody tr:nth-child(odd) {
   background-color: #d5ffe8;
 }
 
-/* Note nyaa */
+
 .note {
   color: red;
   font-size: 18px;
@@ -406,7 +402,7 @@ tbody tr:nth-child(odd) {
   margin: 10px 0;
 }
 
-/* Keterangan  */
+
 .keterangan {
   margin-top: 20px;
 }
